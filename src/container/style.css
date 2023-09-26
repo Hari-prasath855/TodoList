@@ -1,0 +1,58 @@
+.container {
+    margin: 30px 20px;
+}
+.header-container {
+    margin: 16px;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+button {
+    width: 40px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.button1{
+    position: absolute;
+    right: 3%;
+}
+
+.button2{
+    position: absolute;
+    right: 0%;
+}
+
+.header-btn1 {
+    right: 0%;
+}
+
+.header-content img {
+    display: inline-block;
+    margin: 0;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.date-text span{
+    margin-left: 45px;
+    font-size: 1rem;
+    opacity: 0.5;
+    font-weight: 600;
+}
+
+.task {
+    margin: 30px 20px;
+}

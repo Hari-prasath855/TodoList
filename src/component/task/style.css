@@ -1,0 +1,40 @@
+.taskbar-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    height: 5vh;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.taskbar-box {
+    display: flex;
+    align-items: center;
+    width: 95%;
+}
+
+.taskbar-box input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+    margin :0px 20px;
+    border-radius: 20px;
+}
+
+.taskbar-title-1{
+    display: block;
+}
+
+.taskbar-title-2{
+    opacity: 0.6;
+    font-size: small;
+}
+
+.taskbar-star-box {
+    margin: 15px;
+    right: 10%;
+}
+
+.taskbar-delete-box {
+    right: 5%;
+}

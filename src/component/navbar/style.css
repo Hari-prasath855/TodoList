@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+    background-color: #2564ce;
+    color: white;
+}
+
+.nav-h3 {
+    display: inline;
+    padding-right: 30%;
+}
+
+.nav-img {
+    height: 19px;
+    width: 19px;
+    display: inline;
+    padding-right: 2%;
+    cursor: pointer;
+}
+
+input {
+    width: 30%;
+    height: 25px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
